@@ -1,0 +1,168 @@
+{
+  "catalog": [
+    {
+      "id": "grill-me",
+      "title": "Resolve consequential uncertainties",
+      "source": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/productivity/grill-me/SKILL.md",
+      "rule_source": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/productivity/grilling/SKILL.md",
+      "popularity": "1.4M",
+      "popularity_source": "https://skills.sh/mattpocock/skills/grill-me",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/mattpocock/skills/main/LICENSE",
+      "version": "unversioned main snapshot",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Resolve missing decisions about inputs, outputs and failure behavior before dependent work; inspect provided context first.",
+        "Reuse settled decisions. Ask only a necessary unresolved question through the existing protocol; do not restart an interview."
+      ]
+    },
+    {
+      "id": "improve-codebase-architecture",
+      "title": "Keep responsibilities and interfaces clear",
+      "source": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "popularity": "1.1M",
+      "popularity_source": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/mattpocock/skills/main/LICENSE",
+      "version": "unversioned main snapshot",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Give state and behavior clear owners; expose small complete interfaces and settle dependency contracts before implementation.",
+        "Preserve approved boundaries. Change architecture only for a demonstrated contract defect, not a local implementation failure."
+      ]
+    },
+    {
+      "id": "tdd",
+      "title": "Test observable behavior in small steps",
+      "source": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/engineering/tdd/SKILL.md",
+      "popularity": "1.1M",
+      "popularity_source": "https://skills.sh/mattpocock/skills/tdd",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/mattpocock/skills/main/LICENSE",
+      "version": "unversioned main snapshot",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "For nontrivial behavior, use a small failing public-interface check, implement the required behavior, then verify it passes.",
+        "Derive expectations from the task, not the implementation. Avoid private-method mocks and new tests for trivial cosmetic edits."
+      ]
+    },
+    {
+      "id": "agent-browser",
+      "title": "Observe real browser behavior",
+      "source": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/skills/agent-browser/SKILL.md",
+      "popularity": "1.1M",
+      "popularity_source": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
+      "license": "Apache-2.0",
+      "license_source": "https://raw.githubusercontent.com/vercel-labs/agent-browser/main/LICENSE",
+      "version": "unversioned main snapshot",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Use available browser tooling to exercise the actual user flow and inspect visible state; a successful build is not browser evidence.",
+        "Use current element references and isolated sessions for separate users. Report unavailable browser checks instead of claiming success."
+      ]
+    },
+    {
+      "id": "frontend-design",
+      "title": "Design for this product and its content",
+      "source": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+      "popularity": "989.6K",
+      "popularity_source": "https://skills.sh/anthropics/skills/frontend-design",
+      "license": "Apache-2.0",
+      "license_source": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/LICENSE.txt",
+      "version": "unversioned main snapshot",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Follow the supplied visual direction and existing tokens; choose hierarchy, spacing and typography for the real content.",
+        "Keep responsive layouts and useful empty/error states. Avoid decorative features or assets that the task does not need."
+      ]
+    },
+    {
+      "id": "vercel-react-best-practices",
+      "title": "Keep React rendering and data flow efficient",
+      "source": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/react-best-practices/SKILL.md",
+      "popularity": "803.5K",
+      "popularity_source": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/react-best-practices/SKILL.md",
+      "version": "1.0.0",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Avoid serial waits for independent data and unnecessary client imports; keep rendering free of effects that duplicate derived state.",
+        "Clean up subscriptions and listeners, keep effect dependencies accurate, and add memoization only for demonstrated expensive work."
+      ]
+    },
+    {
+      "id": "web-design-guidelines",
+      "title": "Keep interfaces accessible and usable",
+      "source": "https://raw.githubusercontent.com/vercel-labs/agent-skills/main/skills/web-design-guidelines/SKILL.md",
+      "rule_source": "https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md",
+      "popularity": "739.2K",
+      "popularity_source": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/LICENSE",
+      "version": "1.0.0",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Use semantic controls, accessible names, keyboard operation and visible focus; retain readable contrast and reduced-motion support.",
+        "Handle narrow screens, long content, loading and validation errors without hiding essential controls or changing the task's UI contract."
+      ]
+    },
+    {
+      "id": "code-review",
+      "title": "Review correctness against the actual task",
+      "source": "https://raw.githubusercontent.com/mattpocock/skills/main/skills/engineering/code-review/SKILL.md",
+      "popularity": "737.7K",
+      "popularity_source": "https://skills.sh/mattpocock/skills/code-review",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/mattpocock/skills/main/LICENSE",
+      "version": "unversioned main snapshot",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Check task coverage and repository conventions separately; trace changed behavior through callers and failure paths.",
+        "Report concrete defects with evidence and location. Keep optional style preferences separate from defects and avoid unrelated rewrites."
+      ]
+    },
+    {
+      "id": "systematic-debugging",
+      "title": "Repair the demonstrated cause",
+      "source": "https://raw.githubusercontent.com/obra/superpowers/main/skills/systematic-debugging/SKILL.md",
+      "popularity": "293.7K",
+      "popularity_source": "https://skills.sh/obra/superpowers/systematic-debugging",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/obra/superpowers/main/LICENSE",
+      "version": "unversioned main snapshot",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Reproduce the failure and trace data through the failing boundary before editing; distinguish environment failure from code failure.",
+        "Test one causal hypothesis with a focused regression check. Keep local repairs local and report contract conflicts through the coordinator."
+      ]
+    },
+    {
+      "id": "verification-before-completion",
+      "title": "Tie completion to evidence",
+      "source": "https://raw.githubusercontent.com/obra/superpowers/main/skills/verification-before-completion/SKILL.md",
+      "popularity": "240.0K",
+      "popularity_source": "https://skills.sh/obra/superpowers/verification-before-completion",
+      "license": "MIT",
+      "license_source": "https://raw.githubusercontent.com/obra/superpowers/main/LICENSE",
+      "version": "unversioned main snapshot",
+      "observed_at": "2026-10-15",
+      "rules": [
+        "Check the final artifact with the task's acceptance commands; read their exit status and results before reporting completion.",
+        "Distinguish passed, failed and unrun checks. Never replace a behavioral test with a weaker assertion or claim runtime proof from static checks."
+      ]
+    }
+  ],
+  "ponytail": {
+    "id": "ponytail",
+    "title": "Smallest complete solution",
+    "source": "/home/shelby/.codex/plugins/cache/ponytail/ponytail/5.2.0/skills/ponytail/SKILL.md",
+    "license": "MIT",
+    "version": "5.2.0",
+    "observed_at": "2026-10-15",
+    "rules": [
+      "Read the affected flow and callers; reuse existing code, then the standard library. Add only what the task needs.",
+      "Prefer one root-cause fix and a focused check over wrappers, speculative abstractions, dependencies or broad rewrites."
+    ]
+  }
+}

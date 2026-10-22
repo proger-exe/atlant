@@ -1,0 +1,68 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtual environments and Python tooling
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+
+# Coverage and test artifacts
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local environment files
+.env
+.env.local
+.env.*
+*.env
+*.local
+!.env.example
+
+# Alembic caches
+alembic/__pycache__/
+alembic/versions/__pycache__/
+
+# Logs and runtime scratch data
+*.log
+logs/
+tmp/
+temp/
+
+# Temporary exports and reports
+exports/
+reports/
+output/
+*.tmp.csv
+*-export.csv
+*-report.csv
+report-*.html
+*-report.html
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Isolated generator benchmark outputs
+.atlant-bench/

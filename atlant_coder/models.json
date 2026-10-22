@@ -1,0 +1,50 @@
+[
+    {
+        "Name": "CORE",
+        "FromFile": true,
+        "Priority": 0,
+        "ModelUse": "gpt-5.6-sol",
+        "SystemInstruction": "models/br_manager.md",
+        "Generation": {
+            "temperature": 0.4
+        }
+    },
+    {
+        "Name": "ARCH",
+        "FromFile": true,
+        "ModelUse": "gpt-5.6-sol",
+        "SystemInstruction": "models/br_structure.md",
+        "Generation": {
+            "temperature": 0.3
+        }
+    },
+    {
+        "Name": "ARCH_THINK",
+        "FromFile": true,
+        "ModelUse": "gpt-5.6-sol",
+        "SystemInstruction": "models/br_think.md",
+        "Generation": {
+            "temperature": 0.6
+        }
+    },
+    {
+        "Name": "CODER",
+        "FromFile": true,
+        "ModelUse": "gpt-5.6-sol",
+        "ModelUseCheap": "gpt-5.6-sol",
+        "SystemInstruction": "models/br_coder.md",
+        "Generation": {
+            "temperature": 0.2,
+            "max_output_tokens": 16000
+        }
+    },
+    {
+        "Name": "CODER_THINK",
+        "FromFile": true,
+        "ModelUse": "gpt-5.6-sol",
+        "SystemInstruction": "models/br_think.md",
+        "Generation": {
+            "temperature": 0.55
+        }
+    }
+]
